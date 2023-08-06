@@ -6,7 +6,7 @@ const Repositories = ( {styles} ) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const accessToken = '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';
+    const accessToken = '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';
 
     fetch('https://api.github.com/users/hoorasadat/repos', {
       headers: {
