@@ -1,7 +1,7 @@
-const AdditionalExperience = () => {
+const AdditionalExperience = ( {styles} ) => {
   return (
     <div className="col-md">
-      <div className="card">
+      <div className="card" style={styles}>
         <div className="card-body">
           <h2 className="card-title">Additional experience</h2>
           <ul className="list-unstyled">

@@ -1,7 +1,7 @@
-const Profile = () => {
+const Profile = ( {styles} ) => {
   return (
     <div className="col-md">
-      <div className="card">
+      <div className="card" style={styles}>
         <div className="card-body">
           <h2 className="card-title">Profile</h2>
           <p>

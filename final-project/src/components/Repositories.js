@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const Repositories = () => {
+const Repositories = ( {styles} ) => {
   const [repositories, setRepositories] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -34,10 +34,10 @@ const Repositories = () => {
 
   return (
     <div className="col-md mb-3">
-      <div className="card">
+      <div className="card" style={styles}>
         <div className="card-body">
           <h2 className="card-title">My GitHub Repositories</h2>
-          <ul className="list-unstyled">
+          {/* <ul className="list-unstyled">
 						{repositories.map(repo => (
 						<li key={repo.id}>
 							<a
@@ -48,7 +48,7 @@ const Repositories = () => {
 							</a>
 						</li>
 						))}
-					</ul>
+					</ul> */}
 				</div>
 			</div>
 		</div>

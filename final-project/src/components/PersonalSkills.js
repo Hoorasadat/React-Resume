@@ -1,7 +1,7 @@
-const PersonalSkills = () => {
+const PersonalSkills = ( {styles} ) => {
   return (
     <div className="col-md">
-      <div className="card">
+      <div className="card" style={styles}>
         <div className="card-body">
           <h2 className="card-title">Personal skills</h2>
 
