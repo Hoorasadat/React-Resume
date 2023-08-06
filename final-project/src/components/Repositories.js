@@ -6,7 +6,7 @@ const Repositories = ( {styles} ) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const accessToken = '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';
+    const accessToken = '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';
 
     fetch('https://api.github.com/users/hoorasadat/repos', {
       headers: {
@@ -37,7 +37,7 @@ const Repositories = ( {styles} ) => {
       <div className="card" style={styles}>
         <div className="card-body">
           <h2 className="card-title">My GitHub Repositories</h2>
-          {/* <ul className="list-unstyled">
+          <ul className="list-unstyled">
 						{repositories.map(repo => (
 						<li key={repo.id}>
 							<a
@@ -48,7 +48,7 @@ const Repositories = ( {styles} ) => {
 							</a>
 						</li>
 						))}
-					</ul> */}
+					</ul>
 				</div>
 			</div>
 		</div>
