@@ -6,12 +6,10 @@ const Repositories = ( {styles} ) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const accessToken = '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';
+    // const accessToken = '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';
 
     fetch('https://api.github.com/users/hoorasadat/repos', {
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-      },
+      method: 'GET'
     })
       .then(response => response.json())
       .then(data => {
