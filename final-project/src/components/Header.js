@@ -39,7 +39,7 @@ const Header = () => {
               <ul className="list-inline">
                 <li className="list-inline-item">
                   <i className="bi bi-geo-alt-fill"></i>
-                  <span className="text-center px-2"> 34 Strad Cres., SW, Calgary, AB T7H-4T4 </span>
+                  <span className="text-center px-2"> 64 Straddock Cres., SW, Calgary, AB T3H-2T2 </span>
                 </li>
 
 								<li className="list-inline-item">
@@ -48,7 +48,7 @@ const Header = () => {
                     className="fs-7 link-light text-decoration-none"
                   >
 										<i className="bi bi-telephone-fill"></i>
-										<span className="text-center px-2"> +1 (403) 400-0000 </span>
+										<span className="text-center px-2"> +1 (403) 466-2011 </span>
                   </a>
                 </li>
 
