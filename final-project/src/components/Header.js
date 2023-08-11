@@ -47,8 +47,8 @@ const Header = () => {
                     href="tel:+14034000000"
                     className="fs-7 link-light text-decoration-none"
                   >
-										<i className="bi bi-telephone-fill"></i>
-										<span className="text-center px-2"> +1 (403) 466-2011 </span>
+										<i className="bi bi-telephone-fill" style={fontStyles}></i>
+										<span className="text-center px-2" style={fontStyles}> +1 (403) 466-2011 </span>
                   </a>
                 </li>
 
