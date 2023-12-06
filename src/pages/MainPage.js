@@ -30,7 +30,7 @@ function MainPage() {
           <div className="row mt-3">
             <PersonalSkills styles={styles}/>
           </div>
-          <div className="row mt-3">
+          <div className="row mt-4">
             <RelatedEducation styles={styles}/>
           </div>
         </div>
