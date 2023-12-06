@@ -3,7 +3,7 @@ const Profile = ( {styles} ) => {
     <div className="col-md">
       <div className="card" style={styles}>
         <div className="card-body">
-          <h2 className="card-title">Profile</h2>
+          <h2 className="card-title mb-5">Profile</h2>
           <p style={{ textAlign: 'justify' }}>
             As a highly organized and detail-oriented full-stack software developer, I bring a strong problem-solving mindset to every project. With a background in Object-Oriented Software Development and Full-Stack Software Development programs at SAIT, I have honed my skills in web application development. Additionally, my hands-on experience in full-stack software development and business analysis within the oil & gas industry has provided me with a unique perspective on delivering robust solutions.
             <br />

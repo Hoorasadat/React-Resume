@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <div>
       <header style={boxStyles}>
-        <div className="container py-4">
+        <div className="container py-5">
           <div className="row align-items-center justify-content-between">
             <div className="col-xs-3 col-lg-2 text-center">
               <img

@@ -1,3 +1,5 @@
+import './Proficiency.css';
+
 const PersonalSkills = ( {styles} ) => {
   return (
     <div className="col-md">
@@ -5,28 +7,28 @@ const PersonalSkills = ( {styles} ) => {
         <div className="card-body">
           <h2 className="card-title">Personal Skills</h2>
 
-          <div className="row mt-3">
+          <div className="row mt-5">
 
             <div className="col-md-3">
               <ul className="list-unstyled">
                 <li>
-                  <h6>Analytical</h6>
+                  <span className="skill">Analytical</span>
                 </li>
 
                 <li>
-                  <h6>Sociable</h6>
+                  <span className="skill">Sociable</span>
                 </li>
 
                 <li>
-                  <h6>Systematic</h6>
+                  <span className="skill">Systematic</span>
                 </li>
 
                 <li>
-                  <h6>Detail-oriented</h6>
+                  <span className="skill">Detail-oriented</span>
                 </li>
 
                 <li>
-                  <h6>Co-operative</h6>
+                  <span className="skill">Co-operative</span>
                 </li>
               </ul>
             </div>
@@ -34,23 +36,23 @@ const PersonalSkills = ( {styles} ) => {
             <div className="col-md-5">
               <ul className="list-unstyled">
                 <li>
-                  <h6>Problem solver</h6>
+                  <span className="skill">Problem solver</span>
                 </li>
 
                 <li>
-                  <h6>Goal-driven</h6>
+                  <span className="skill">Goal-driven</span>
                 </li>
 
                 <li>
-                  <h6>	Results-oriented</h6>
+                  <span className="skill">	Results-oriented</span>
                 </li>
 
                 <li>
-                  <h6>Quickly adjustable</h6>
+                  <span className="skill">Quickly adjustable</span>
                 </li>
 
                 <li>
-                  <h6>Collaborative team member</h6>
+                  <span className="skill">Collaborative team member</span>
                 </li>
               </ul>
             </div>
@@ -58,23 +60,23 @@ const PersonalSkills = ( {styles} ) => {
             <div className="col-md-3">
               <ul className="list-unstyled">
                 <li>
-                  <h6>Accurate</h6>
+                  <span className="skill">Accurate</span>
                 </li>
 
                 <li>
-                  <h6>Caring</h6>
+                  <span className="skill">Caring</span>
                 </li>
 
                 <li>
-                  <h6>Considerate</h6>
+                  <span className="skill">Considerate</span>
                 </li>
 
                 <li>
-                  <h6>Punctual</h6>
+                  <span className="skill">Punctual</span>
                 </li>
 
                 <li>
-                  <h6>Self-reliant</h6>
+                  <span className="skill">Self-reliant</span>
                 </li>
               </ul>
             </div>
