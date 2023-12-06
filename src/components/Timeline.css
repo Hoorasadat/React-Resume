@@ -7,8 +7,15 @@
 
 @media (max-width: 767px) {
   .timeline-1 {
-    max-width: 98%;
+    margin: 0;
+    max-width: 100%;
     padding: 25px;
+  }
+
+  .timeline-1 .event:before {
+    left: 0;
+    text-align: left;
+    white-space: pre-line;
   }
 }
 
@@ -35,12 +42,12 @@
 }
 
 .timeline-1 .event:before {
-	left: -215px;
-	content: attr(data-date) "\A" attr(type); /* \A is a newline character */
-	white-space: pre; /* Preserve whitespace */
-	font-size: 0.9em;
-	min-width: 120px;
-	position: absolute;
+  left: -215px;
+  content: attr(data-date) "\A" attr(type);
+  white-space: pre;
+  font-size: 0.9em;
+  min-width: 120px;
+  position: absolute;
   padding: 0;
 }
 
