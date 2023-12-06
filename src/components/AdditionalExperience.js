@@ -10,7 +10,7 @@ const AdditionalExperience = ( {styles} ) => {
             <ul className="timeline-1">
               <li className="event" data-date="Oct 2012-Jan 2018" type="Full Time">
                 <h5 className="mb-3">Business Process Analyst / HR Analyst</h5>
-                <h6 className="mb-3"><a rel="noopener noreferrer" target="_blank" href="https://www.pedex.ir/home?lang=en">Pars Energy-Gostar Drilling & Exploration (PEDEX)</a></h6>
+                <h6 className="mb-3"><a className="text-decoration-none" rel="noopener noreferrer" target="_blank" href="https://www.pedex.ir/home?lang=en">Pars Energy-Gostar Drilling & Exploration (PEDEX)</a></h6>
                 <p>
                   Establishing and administrating web-based office automation systems (Correspondence system-HR system) Designing different organizational process and preparing the related work flows and manuals Contributing in establishment of ISO 9001:2015 Improving organizational chart and participated in the preparation of Company and HR strategic planning
                 </p>
