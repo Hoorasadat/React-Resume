@@ -8,13 +8,13 @@ const AdditionalEducation = ( {styles} ) => {
             <ul className="timeline-1">
               <li className="event" data-date="Sep 2005 - May 2007" type="Certificate">
                 <h5 className="mb-3">M.Sc. in Industrial Engineering, Industries</h5>
-                <h6 className="mb-3">Mazandaran University of Science and Technology</h6>
-                <h7 className="mb-3">GPA: 4.0/4.0 (Top Student with Honors)</h7>
+                <h6 className="mb-3"><a rel="noopener noreferrer" target="_blank" href="https://www.ustmb.ac.ir/En">Mazandaran University of Science and Technology</a></h6>
+                <span className="mb-3">GPA: 4.0/4.0 (Top Student with Honors)</span>
               </li>
 
               <li className="event" data-date="Sep 2001 - Jun 2005" type="Certificate">
                 <h5 className="mb-3">OB.Sc. in Industrial Engineering, Planning and Systems Analysis</h5>
-                <h6 className="mb-3">Mazandaran University of Science and Technology</h6>
+                <h6 className="mb-3"><a rel="noopener noreferrer" target="_blank" href="https://www.ustmb.ac.ir/En">Mazandaran University of Science and Technology</a></h6>
               </li>
             </ul>
           </div>
