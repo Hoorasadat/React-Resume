@@ -9,8 +9,8 @@ const RelatedExperience = ( {styles} ) => {
           <div className="col-md-12">
             <ul className="timeline-1">
               <li className="event" data-date="Jun 2023 – now" type="Part Time">
-                <h4 className="mb-3">Full-Stack Developer</h4>
-                <h5 className="mb-3">Immigrant Techies</h5>
+                <h5 className="mb-3">Full-Stack Developer</h5>
+                <h6 className="mb-3">Immigrant Techies</h6>
                 <p>
                   Developing a web application (Community Connect) for the Immigrant Techies Alberta group on top of a PERN stack plus SCSS, TypeScript, and Sequelize as an ORM library
                 </p>

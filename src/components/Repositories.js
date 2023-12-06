@@ -34,7 +34,7 @@ const Repositories = ( {styles} ) => {
     <div className="col-md mb-3">
       <div className="card" style={styles}>
         <div className="card-body">
-          <h2 className="card-title">My GitHub Repositories</h2>
+          <h2 className="card-title mb-5">My GitHub Repositories</h2>
           <ul className="list-unstyled">
 						{repositories.length > 0 ? (repositories.map(repo => (
 						<li key={repo.id}>

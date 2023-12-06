@@ -3,27 +3,21 @@ const AdditionalEducation = ( {styles} ) => {
     <div className="col-md">
       <div className="card" style={styles}>
         <div className="card-body">
-          <h2 className="card-title">Additional education</h2>
-          <ul className="list-unstyled">
-            <li>
-              <h6 className="fw-bold">
-                M.Sc. in Industrial Engineering, Industries
-              </h6>
-              <h6 className="fw-bold">
-                September 2005 - May 2007
-              </h6>
-              <p>Mazandaran University of Science and Technology</p>
-            </li>
-            <li>
-              <h6 className="fw-bold">
-                M.Sc. in Industrial Engineering, Industries
-              </h6>
-              <h6 className="fw-bold">
-                September 2001 - June 2005
-              </h6>
-              <p>Mazandaran University of Science and Technology</p>
-            </li>
-          </ul>
+          <h2 className="card-title mb-5">Additional education</h2>
+          <div className="col-md-12">
+            <ul className="timeline-1">
+              <li className="event" data-date="Sep 2005 - May 2007" type="Certificate">
+                <h5 className="mb-3">M.Sc. in Industrial Engineering, Industries</h5>
+                <h6 className="mb-3">Mazandaran University of Science and Technology</h6>
+                <h7 className="mb-3">GPA: 4.0/4.0 (Top Student with Honors)</h7>
+              </li>
+
+              <li className="event" data-date="Sep 2001 - Jun 2005" type="Certificate">
+                <h5 className="mb-3">OB.Sc. in Industrial Engineering, Planning and Systems Analysis</h5>
+                <h6 className="mb-3">Mazandaran University of Science and Technology</h6>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
