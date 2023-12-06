@@ -1,4 +1,4 @@
-import './Experience.css';
+import './Timeline.css';
 
 const RelatedEducation = ( {styles} ) => {
   return (
@@ -6,7 +6,6 @@ const RelatedEducation = ( {styles} ) => {
       <div className="card" style={styles}>
         <div className="card-body mb-3">
           <h2 className="card-title mb-5">Education</h2>
-          <div className="container">
             <div className="col-md-12">
               <ul className="timeline-1">
 
@@ -23,30 +22,10 @@ const RelatedEducation = ( {styles} ) => {
 
               </ul>
             </div>
-          </div>
         </div>
       </div>
     </div>
   );
 };
-
-
-
-          // <ul className="list-unstyled">
-          //   <li>
-          //     <h6 className="fw-bold">
-          //       Full-Stack Software Development (Certificate)
-          //     </h6>
-          //     <h6 className="fw-bold">June 2023 - September 2023</h6>
-          //     <p>SAIT, Calgary, Alberta</p>
-          //   </li>
-          //   <li>
-          //     <h6 className="fw-bold">
-          //       Object Oriented Software Development (Certificate)
-          //     </h6>
-          //     <h6 className="fw-bold">January 2019 - June 2019</h6>
-          //     <p>SAIT, Calgary, Alberta</p>
-          //   </li>
-          // </ul>
 
 export default RelatedEducation;
