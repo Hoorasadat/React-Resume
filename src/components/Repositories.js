@@ -53,24 +53,25 @@ const Repositories = ({ styles }) => {
       <div className="card" style={styles}>
         <div className="card-body">
           <h2 className="card-title mb-5">My GitHub Repositories</h2>
-          <ul className="list-unstyled">
-            {repositories.length > 0 ? (
-              repositories.map(repo => (
-                <li key={repo.id}>
-                  <a
-                    href={repo.html_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-decoration-none"
-                  >
-                    {repo.name}
-                  </a>
-                </li>
-              ))
-            ) : (
-              <li className="fs-5 text-danger">Error fetching repositories!</li>
-            )}
-          </ul>
+          <div className="row">
+            {repositories.map(repo => (
+              <div key={repo.id} className="col-md-4 mb-3">
+                <div className="card-body">
+                  <h6 className="card-subtitle mb-2 text-muted">{repo.name}</h6>
+                  <p className="card-text">
+                    <a
+                      href={repo.html_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-decoration-none"
+                    >
+                      {repo.html_url}
+                    </a>
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
