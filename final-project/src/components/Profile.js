@@ -4,17 +4,10 @@ const Profile = ( {styles} ) => {
       <div className="card" style={styles}>
         <div className="card-body">
           <h2 className="card-title">Profile</h2>
-          <p>
-            A confident and highly organized programmer with a continuous
-            developing skills in web/ mobile applications and software
-            development. Studied Object-oriented software development program at
-            SAIT, as well as experienced in full-stack development and systems
-            planning and analyzing. Familiar with agile scrum methodology and
-            practiced unit testing and quality assurance with strong passion
-            about user experience and integration of the systems. Talented in
-            grasping new concepts with concern of enhancing the deliverables'
-            quality and reducing costs by improving efficiency and increasing
-            productivity.
+          <p style={{ textAlign: 'justify' }}>
+            As a highly organized and detail-oriented full-stack software developer, I bring a strong problem-solving mindset to every project. With a background in Object-Oriented Software Development and Full-Stack Software Development programs at SAIT, I have honed my skills in web application development. Additionally, my hands-on experience in full-stack software development and business analysis within the oil & gas industry has provided me with a unique perspective on delivering robust solutions.
+            <br />
+            I am well-versed in agile Scrum methodology and committed to practicing unit testing and quality assurance, all while prioritizing a superior user experience and seamless system integration. My ability to quickly grasp new concepts allows me to continually enhance deliverable quality and reduce costs through improved efficiency and heightened productivity.
           </p>
         </div>
       </div>

@@ -6,38 +6,36 @@ const TechhnicalProficiency = ( {styles} ) => {
           <h2 className="card-title">Technical proficiency</h2>
           <ul className="list-unstyled">
             <li>
-              <h6 className="fw-bold">Languages</h6>
+              <h6 className="fw-bold">Programming Languages</h6>
               <p>
-                HTML, CSS, SCSS, JavaScript, TypeScript, C#, PHP, Python, Ruby
-                on Rails
+                HTML, CSS, Saas, JavaScript, C#, PHP (Familiar), Python (Familiar), TypeScript, Ruby on Rails
               </p>
             </li>
 
             <li>
               <h6 className="fw-bold">Libraries/Frameworks</h6>
-              <p>React, Vue, Node, jQuery, Bootstrap</p>
+              <p>React, Vue (Familiar), Node, jQuery (Familiar), Bootstrap, .NET, ASP.NET</p>
             </li>
 
             <li>
-              <h6 className="fw-bold">Platforms</h6>
+              <h6 className="fw-bold">Development Tools</h6>
               <p>GitHub, MS Visual Studio</p>
             </li>
 
             <li>
               <h6 className="fw-bold">Databases/DBMS</h6>
               <p>
-                Cosmos DB, MySQL, PostgreSQL, Microsoft SQL Server, Oracle DB
-                (PL/SQL), Microsoft Access
+              PostgreSQL, Microsoft SQL Server, MySQL, Cosmos Db, Oracle DB (PL/SQL), Microsoft Access
               </p>
             </li>
 
             <li>
               <h6 className="fw-bold">Cloud Environment</h6>
-              <p>Microsoft Azure, Amazon Web Services</p>
+              <p>Microsoft Azure, Amazon Web Services (Familiar)</p>
             </li>
 
             <li>
-              <h6 className="fw-bold">Applications</h6>
+              <h6 className="fw-bold">Other tools</h6>
               <p>Jira, Figma</p>
             </li>
           </ul>

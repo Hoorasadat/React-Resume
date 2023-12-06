@@ -34,7 +34,7 @@ const Header = () => {
             <div className="col text-center text-lg-start">
               <h1>HooraSadat Mirsanei</h1>
 
-              <p className="lead">Full-stack software development</p>
+              <p className="lead">Full-stack software developer</p>
 
               <ul className="list-inline">
                 <li className="list-inline-item">
@@ -87,6 +87,18 @@ const Header = () => {
                   >
                     <i className="bi bi-github pe-1" style={fontStyles}></i>
 										<span className="text-center px-2" style={fontStyles}> GitHub </span>
+                  </a>
+                </li>
+
+                <li className="list-inline-item">
+                  <a
+                    href="https://hoora.dev"
+										target="_blank"
+										rel="noreferrer"
+                    className="fs-7 link-light text-decoration-none"
+                  >
+                    <i className="bi bi-globe pe-1" style={fontStyles}></i>
+										<span className="text-center px-2" style={fontStyles}> Portfolio </span>
                   </a>
                 </li>
 
