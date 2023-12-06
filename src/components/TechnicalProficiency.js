@@ -1,4 +1,4 @@
-import './Proficiency.css';
+import './Highlight.css';
 
 const TechhnicalProficiency = ( {styles} ) => {
   return (
