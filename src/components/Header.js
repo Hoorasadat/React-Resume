@@ -9,8 +9,10 @@ const Header = () => {
   const boxStyles = {
     backgroundColor: isDarkMode === true ? 'black' : 'white',
     color: isDarkMode === true ? 'white' : 'black',
-    border: isDarkMode === true ? '1px solid white' : '3px solid grey',
-    borderRadius: isDarkMode === true ? '10px' : '10px',
+    border: isDarkMode === true ? '1px solid white' : '1px solid grey',
+    borderRadius: isDarkMode === true ? '20px' : '20px',
+    padding: '0 10px',
+    fontSize: '1.2em'
   }
 
   const fontStyles = {
@@ -39,7 +41,7 @@ const Header = () => {
               <ul className="list-inline">
                 <li className="list-inline-item">
                   <i className="bi bi-geo-alt-fill"></i>
-                  <span className="text-center px-2"> 64 Straddock Cres., SW, Calgary, AB T3H-2T2 </span>
+                  <span className="text-center px-2"> Calgary, AB </span>
                 </li>
 
 								<li className="list-inline-item">
@@ -107,7 +109,7 @@ const Header = () => {
 
             <div className="col-xs-3 col-lg-2">
               <Button onClick={toggleTheme} style={boxStyles}>
-                Toggle 🌞  🌛 Mode
+                ☼ &nbsp; ☾
               </Button>
             </div>
 
