@@ -8,7 +8,7 @@ const RelatedExperience = ( {styles} ) => {
           <h2 className="card-title mb-5">Related Experience</h2>
           <div className="col-md-12">
             <ul className="timeline-1">
-              <li className="event" data-date="Jun 2023 – now" type="Part Time">
+              <li className="event" data-date="Jun 2023 – Dec 2023" type="Part Time">
                 <h5 className="mb-3">Full-Stack Developer</h5>
                 <h6 className="mb-3"><a className="text-decoration-none" rel="noopener noreferrer" target="_blank" href="https://www.immigranttechies.ca/">Immigrant Techies Alberta</a></h6>
                 <p>
