@@ -8,6 +8,20 @@ const RelatedExperience = ( {styles} ) => {
           <h2 className="card-title mb-5">Related Experience</h2>
           <div className="col-md-12">
             <ul className="timeline-1">
+
+              <li className="event" data-date="May 2024 – Now" type="Part Time">
+                <h5 className="mb-3">Front-End Developer</h5>
+                <h6 className="mb-3"><a className="text-decoration-none" rel="noopener noreferrer" target="_blank" href="https://newideamachine.com/">New Idea Machine</a></h6>
+                <p>
+                  <li>
+                    Developing a micro-credential learning platform for Untapped Energy on top of a MERN stack plus SCSS and Bootstrap
+                  </li>
+                  <li>
+                    Applying agile methodology
+                  </li>
+                </p>
+              </li>
+
               <li className="event" data-date="Jun 2023 – May 2024" type="Part Time">
                 <h5 className="mb-3">Full-Stack Developer</h5>
                 <h6 className="mb-3"><a className="text-decoration-none" rel="noopener noreferrer" target="_blank" href="https://www.immigranttechies.ca/">Immigrant Techies Alberta</a></h6>
